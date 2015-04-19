@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16E2870A6EEAB8B000AA43B5 /* libPods-TrackButs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EF9CF872AF30F5FC3DE4C1 /* libPods-TrackButs.a */; };
 		65451E391AE380DC00617DD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65451E381AE380DC00617DD1 /* AppDelegate.m */; };
 		65451E3B1AE380DC00617DD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65451E3A1AE380DC00617DD1 /* main.m */; };
 		65451E3E1AE380DC00617DD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65451E3D1AE380DC00617DD1 /* ViewController.m */; };
 		65451E401AE380DC00617DD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65451E3F1AE380DC00617DD1 /* Images.xcassets */; };
 		65451E431AE380DC00617DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65451E411AE380DC00617DD1 /* Main.storyboard */; };
 		65451E4F1AE380DC00617DD1 /* TrackButsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65451E4E1AE380DC00617DD1 /* TrackButsTests.m */; };
+		65B91F5E1AE38272005FF61A /* TBAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B91F5D1AE38272005FF61A /* TBAuthManager.m */; };
+		65B91F621AE382D1005FF61A /* TBConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B91F611AE382D1005FF61A /* TBConfigure.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		506B8A18B51160B1A42FECF6 /* Pods-TrackButs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackButs.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackButs/Pods-TrackButs.release.xcconfig"; sourceTree = "<group>"; };
+		51A66DF0EBE738CD5D720E1B /* Pods-TrackButs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackButs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackButs/Pods-TrackButs.debug.xcconfig"; sourceTree = "<group>"; };
 		65451E321AE380DC00617DD1 /* TrackButs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackButs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65451E361AE380DC00617DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65451E371AE380DC00617DD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,6 +43,11 @@
 		65451E481AE380DC00617DD1 /* TrackButsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackButsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65451E4D1AE380DC00617DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65451E4E1AE380DC00617DD1 /* TrackButsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackButsTests.m; sourceTree = "<group>"; };
+		65B91F5C1AE38272005FF61A /* TBAuthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBAuthManager.h; sourceTree = "<group>"; };
+		65B91F5D1AE38272005FF61A /* TBAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBAuthManager.m; sourceTree = "<group>"; };
+		65B91F601AE382D1005FF61A /* TBConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBConfigure.h; sourceTree = "<group>"; };
+		65B91F611AE382D1005FF61A /* TBConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBConfigure.m; sourceTree = "<group>"; };
+		E0EF9CF872AF30F5FC3DE4C1 /* libPods-TrackButs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrackButs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E2870A6EEAB8B000AA43B5 /* libPods-TrackButs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +75,8 @@
 				65451E341AE380DC00617DD1 /* TrackButs */,
 				65451E4B1AE380DC00617DD1 /* TrackButsTests */,
 				65451E331AE380DC00617DD1 /* Products */,
+				7EFC859046975B976DB614C6 /* Pods */,
+				EE5A7DF00A3A840102734D62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +92,7 @@
 		65451E341AE380DC00617DD1 /* TrackButs */ = {
 			isa = PBXGroup;
 			children = (
+				65B91F5A1AE38260005FF61A /* Classes */,
 				65451E371AE380DC00617DD1 /* AppDelegate.h */,
 				65451E381AE380DC00617DD1 /* AppDelegate.m */,
 				65451E3C1AE380DC00617DD1 /* ViewController.h */,
@@ -116,6 +130,50 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		65B91F5A1AE38260005FF61A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65B91F5F1AE38294005FF61A /* Configure */,
+				65B91F5B1AE38260005FF61A /* Auth */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		65B91F5B1AE38260005FF61A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				65B91F5C1AE38272005FF61A /* TBAuthManager.h */,
+				65B91F5D1AE38272005FF61A /* TBAuthManager.m */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		65B91F5F1AE38294005FF61A /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				65B91F601AE382D1005FF61A /* TBConfigure.h */,
+				65B91F611AE382D1005FF61A /* TBConfigure.m */,
+			);
+			path = Configure;
+			sourceTree = "<group>";
+		};
+		7EFC859046975B976DB614C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51A66DF0EBE738CD5D720E1B /* Pods-TrackButs.debug.xcconfig */,
+				506B8A18B51160B1A42FECF6 /* Pods-TrackButs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE5A7DF00A3A840102734D62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0EF9CF872AF30F5FC3DE4C1 /* libPods-TrackButs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65451E521AE380DC00617DD1 /* Build configuration list for PBXNativeTarget "TrackButs" */;
 			buildPhases = (
+				E7C2616CA52F16C2CC8F1582 /* Check Pods Manifest.lock */,
 				65451E2E1AE380DC00617DD1 /* Sources */,
 				65451E2F1AE380DC00617DD1 /* Frameworks */,
 				65451E301AE380DC00617DD1 /* Resources */,
+				D571F413651B3C24CC30A823 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,12 +270,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D571F413651B3C24CC30A823 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackButs/Pods-TrackButs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7C2616CA52F16C2CC8F1582 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65451E2E1AE380DC00617DD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B91F621AE382D1005FF61A /* TBConfigure.m in Sources */,
 				65451E3E1AE380DC00617DD1 /* ViewController.m in Sources */,
+				65B91F5E1AE38272005FF61A /* TBAuthManager.m in Sources */,
 				65451E3B1AE380DC00617DD1 /* main.m in Sources */,
 				65451E391AE380DC00617DD1 /* AppDelegate.m in Sources */,
 			);
@@ -329,6 +424,7 @@
 		};
 		65451E531AE380DC00617DD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A66DF0EBE738CD5D720E1B /* Pods-TrackButs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -340,6 +436,7 @@
 		};
 		65451E541AE380DC00617DD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506B8A18B51160B1A42FECF6 /* Pods-TrackButs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -404,6 +501,7 @@
 				65451E541AE380DC00617DD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65451E551AE380DC00617DD1 /* Build configuration list for PBXNativeTarget "TrackButsTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +510,7 @@
 				65451E571AE380DC00617DD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

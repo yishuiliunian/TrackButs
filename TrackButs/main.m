@@ -7,7 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "TBConfigure.h"
 
 int main(int argc, const char * argv[]) {
+    TBApplicationSetup();
     return NSApplicationMain(argc, argv);
 }

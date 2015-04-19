@@ -7,12 +7,13 @@
 //
 
 #import "ViewController.h"
-
+#import "TBAuthManager.h"
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    [[TBAuthManager shareInstance] requestAuth];
     // Do any additional setup after loading the view.
 }
 
