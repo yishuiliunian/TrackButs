@@ -9,31 +9,32 @@
 #import "TBAuthManager.h"
 #import <DZSingletonFactory.h>
 #import <OctoKit.h>
+#import "TBFiles.h"
+#import <CocoaLumberjack.h>
+#import "TBSettings.h"
 @implementation TBAuthManager
 + (TBAuthManager*) shareInstance
 {
     return DZSingleForClass([self class]);
 }
+
+
 - (void) requestAuth
 {
     [[OCTClient
       signInToServerUsingWebBrowser:OCTServer.dotComServer scopes:OCTClientAuthorizationScopesUser]
      subscribeNext:^(OCTClient *authenticatedClient) {
-        
-         RACSignal* signal = [authenticatedClient fetchUserRepositories];
-         signal = [signal filter:^BOOL(id value) {
-             return YES;
-         }];
-      
-         [signal  subscribeNext:^(id x) {
-             NSLog(@"%@", x);
-         } error:^(NSError *error) {
-             
-         } completed:^{
-             
-         }];
+         TBShareSettings().authenticedClient = authenticatedClient;
+         TBLocalizedSettings();
      } error:^(NSError *error) {
          NSLog(@"error %@", error);
      }];
+}
+
+- (void) requestAuthIfNeed
+{
+    if (!TBShareSettings().authenticedClient) {
+        [self requestAuth];
+    }
 }
 @end

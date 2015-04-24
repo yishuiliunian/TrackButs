@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "963F17F19AC054CCF8D9DB11"
+               BlueprintIdentifier = "E189C3D36E527129BDA15F1E"
                BuildableName = "libPods-TrackButs.a"
                BlueprintName = "Pods-TrackButs"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -25,29 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TrackButs/AppDelegate.m"
-            timestampString = "451119517.787018"
+            filePath = "TrackButs/Classes/Auth/TBAuthManager.m"
+            timestampString = "451573766.561963"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
             endingLineNumber = "36"
-            landmarkName = "-application:openFile:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TrackButs/AppDelegate.m"
-            timestampString = "451119517.787018"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "-application:openFiles:"
+            landmarkName = "-requestAuthIfNeed"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -57,13 +41,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TrackButs/AppDelegate.m"
-            timestampString = "451119522.6299"
+            filePath = "TrackButs/Classes/Auth/TBAuthManager.m"
+            timestampString = "451573774.723959"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "-handleURLEvent:withReplyEvent:"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "-requestAuth"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

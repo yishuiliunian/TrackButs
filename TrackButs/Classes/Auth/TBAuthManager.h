@@ -10,7 +10,6 @@
 
 @interface TBAuthManager : NSObject
 + (TBAuthManager*) shareInstance;
-
-
 - (void) requestAuth;
+- (void) requestAuthIfNeed;
 @end

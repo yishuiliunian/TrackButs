@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "896A6B003AD8F5427F71EF64"
+               BlueprintIdentifier = "32310DC43564823AD99FB5A6"
                BuildableName = "libPods-TrackButs-ReactiveCocoa.a"
                BlueprintName = "Pods-TrackButs-ReactiveCocoa"
                ReferencedContainer = "container:Pods.xcodeproj">

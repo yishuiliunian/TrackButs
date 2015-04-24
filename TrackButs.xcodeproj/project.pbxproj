@@ -14,6 +14,10 @@
 		65451E401AE380DC00617DD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65451E3F1AE380DC00617DD1 /* Images.xcassets */; };
 		65451E431AE380DC00617DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65451E411AE380DC00617DD1 /* Main.storyboard */; };
 		65451E4F1AE380DC00617DD1 /* TrackButsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65451E4E1AE380DC00617DD1 /* TrackButsTests.m */; };
+		65725A1B1AEA660F00635994 /* TBFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 65725A1A1AEA660F00635994 /* TBFiles.m */; };
+		65725A1F1AEA6D8F00635994 /* TBLogConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 65725A1E1AEA6D8F00635994 /* TBLogConfigure.m */; };
+		65725A221AEA6F9F00635994 /* TBSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 65725A211AEA6F9F00635994 /* TBSettings.m */; };
+		65725A251AEA766B00635994 /* TBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 65725A241AEA766B00635994 /* TBLog.m */; };
 		65B91F5E1AE38272005FF61A /* TBAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B91F5D1AE38272005FF61A /* TBAuthManager.m */; };
 		65B91F621AE382D1005FF61A /* TBConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B91F611AE382D1005FF61A /* TBConfigure.m */; };
 /* End PBXBuildFile section */
@@ -43,6 +47,14 @@
 		65451E481AE380DC00617DD1 /* TrackButsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackButsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65451E4D1AE380DC00617DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65451E4E1AE380DC00617DD1 /* TrackButsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackButsTests.m; sourceTree = "<group>"; };
+		65725A191AEA660F00635994 /* TBFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBFiles.h; sourceTree = "<group>"; };
+		65725A1A1AEA660F00635994 /* TBFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBFiles.m; sourceTree = "<group>"; };
+		65725A1D1AEA6D8F00635994 /* TBLogConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBLogConfigure.h; sourceTree = "<group>"; };
+		65725A1E1AEA6D8F00635994 /* TBLogConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBLogConfigure.m; sourceTree = "<group>"; };
+		65725A201AEA6F9F00635994 /* TBSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBSettings.h; sourceTree = "<group>"; };
+		65725A211AEA6F9F00635994 /* TBSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBSettings.m; sourceTree = "<group>"; };
+		65725A231AEA766B00635994 /* TBLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBLog.h; sourceTree = "<group>"; };
+		65725A241AEA766B00635994 /* TBLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBLog.m; sourceTree = "<group>"; };
 		65B91F5C1AE38272005FF61A /* TBAuthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBAuthManager.h; sourceTree = "<group>"; };
 		65B91F5D1AE38272005FF61A /* TBAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBAuthManager.m; sourceTree = "<group>"; };
 		65B91F601AE382D1005FF61A /* TBConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBConfigure.h; sourceTree = "<group>"; };
@@ -130,9 +142,39 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		65725A171AEA65F600635994 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				65725A1C1AEA6D8100635994 /* Logs */,
+				65725A181AEA65F600635994 /* Files */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		65725A181AEA65F600635994 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				65725A191AEA660F00635994 /* TBFiles.h */,
+				65725A1A1AEA660F00635994 /* TBFiles.m */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		65725A1C1AEA6D8100635994 /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+				65725A1D1AEA6D8F00635994 /* TBLogConfigure.h */,
+				65725A1E1AEA6D8F00635994 /* TBLogConfigure.m */,
+				65725A231AEA766B00635994 /* TBLog.h */,
+				65725A241AEA766B00635994 /* TBLog.m */,
+			);
+			path = Logs;
+			sourceTree = "<group>";
+		};
 		65B91F5A1AE38260005FF61A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				65725A171AEA65F600635994 /* Utilities */,
 				65B91F5F1AE38294005FF61A /* Configure */,
 				65B91F5B1AE38260005FF61A /* Auth */,
 			);
@@ -153,6 +195,8 @@
 			children = (
 				65B91F601AE382D1005FF61A /* TBConfigure.h */,
 				65B91F611AE382D1005FF61A /* TBConfigure.m */,
+				65725A201AEA6F9F00635994 /* TBSettings.h */,
+				65725A211AEA6F9F00635994 /* TBSettings.m */,
 			);
 			path = Configure;
 			sourceTree = "<group>";
@@ -309,9 +353,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B91F621AE382D1005FF61A /* TBConfigure.m in Sources */,
+				65725A1F1AEA6D8F00635994 /* TBLogConfigure.m in Sources */,
+				65725A1B1AEA660F00635994 /* TBFiles.m in Sources */,
 				65451E3E1AE380DC00617DD1 /* ViewController.m in Sources */,
 				65B91F5E1AE38272005FF61A /* TBAuthManager.m in Sources */,
 				65451E3B1AE380DC00617DD1 /* main.m in Sources */,
+				65725A251AEA766B00635994 /* TBLog.m in Sources */,
+				65725A221AEA6F9F00635994 /* TBSettings.m in Sources */,
 				65451E391AE380DC00617DD1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
