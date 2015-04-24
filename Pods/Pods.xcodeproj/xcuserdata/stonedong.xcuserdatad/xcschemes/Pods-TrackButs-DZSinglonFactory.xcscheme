@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "66CCEC27E76A205A551B565C"
+               BlueprintIdentifier = "6B4A749433D087C373546CE8"
                BuildableName = "libPods-TrackButs-DZSinglonFactory.a"
                BlueprintName = "Pods-TrackButs-DZSinglonFactory"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -4,9 +4,10 @@
 target 'TrackButs' do
   pod 'OctoKit'
   pod 'DZSinglonFactory'
+  pod 'CocoaLumberjack'
+  pod 'Mantle'
 end
 
 target 'TrackButsTests' do
 
 end
-
